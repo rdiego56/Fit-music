@@ -1,0 +1,74 @@
+[
+    {
+        "name" : " Dips ",
+        "description" : " This is part of your Lower Chest / Triceps day workout",
+        "sets" : 4,
+        "reps" : 12
+    },
+    {
+        "name" : "Incline dumbell press",
+        "description" : " This is part of your Upper Chest / Shoulders day workout",
+        "sets" : 4,
+        "reps" : 12
+    },
+    {
+        "name" : "Dumbell shoulder press",
+        "description" : " This is part of your Upper Chest / Shoulders day workout",
+        "sets" : 4,
+        "reps" : 12
+    },
+    {
+        "name" : "Skullcrushers",
+        "description" : "This s part of your Lower Chest / Triceps day",
+        "sets" : 4,
+        "reps" : 12
+    },
+    {
+        "name" : "Lat pulldowns",
+        "description" : " This is part of your Back / Biceps day",
+        "sets" : 4,
+        "reps" : 12
+    },
+    {
+        "name" : "Dumbell curls",
+        "description" : " This is part of your Back / Biceps day",
+        "sets" : 4,
+        "reps" : 12
+    },
+    {
+        "name" : " Leg press",
+        "description" : " This is part of your Quads / Calves day",
+        "sets" : 4,
+        "reps" : 12
+    },
+    {
+        "name" : " Calves raises",
+        "description" : " This is part of your Quads / Calves day",
+        "sets" : 4,
+        "reps" : 12
+    },
+    {
+        "name" : "Hamstring pulls",
+        "description" : "This is part of your Hamstrings / Glutes day",
+        "sets" : 4,
+        "reps" : 12
+    },
+    {
+        "name" : "RDL's",
+        "description" : "This is part of your Hamstrings / Glutes day",
+        "sets" : 4,
+        "reps" : 12
+    },
+    {
+        "name" : "Deadlifts",
+        "description" : " This is part of your Low Back / Glutes day",
+        "sets" : 4, 
+        "reps" : 12
+    },
+    {
+        "name" : "Hip thrusts",
+        "description" : " This is part of your Low Back / Glutes day",
+        "sets" : 4,
+        "reps" :12
+    }
+]

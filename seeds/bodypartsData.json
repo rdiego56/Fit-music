@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Lower Chest / Triceps",
+        "description":   "Excercises to bias the Lower chest, and the triceps "
+    },
+
+    {
+        "name": "Back / Biceps",
+        "description":   "Excercises to bias the Upper/mid back, and the biceps"
+    },
+
+    {
+        "name": "Quads / Calves",
+        "description":   "Excercises to bias the Quads/Calves"
+    },
+
+    {
+        "name": "Upper Chest / Shoulders",
+        "description":  "Excercises to bias the Upper chest/Shoulders" 
+    },
+
+    {
+        "name": "Hamstrings / Glutes",
+        "description":   "Excercises to bias the Hamstrings / Glutes"
+    },
+
+    {
+        "name": "Low Back / Glutes",
+        "description":   "Excercises to bias the Lower back / Glutes"
+    }
+]
