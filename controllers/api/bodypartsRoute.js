@@ -22,6 +22,8 @@ router.get('/', withAuth, async (req,res)=>{
 });
 
 
+
+
 // router.post('/', withAuth, async (req, res) => {
 //   try {
 //     const newBodypart = await Bodyparts.create({
