@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Bodyparts, Workouts } = require('../../models');
+const { Bodyparts } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 router.get('/', withAuth, async (req, res) => {
@@ -20,7 +20,7 @@ router.get('/', withAuth, async (req, res) => {
   }
 });
 
-router.get('/bodyparts/:id', withAuth, async (req, res) => {
+router.get('/bodypart/:id', withAuth, async (req, res) => {
   try {
     const dbBodypartsData = await Bodyparts.findByPk(req.params.id, {
       include: [
@@ -31,12 +31,21 @@ router.get('/bodyparts/:id', withAuth, async (req, res) => {
       ],
     });
     const bodypart = dbBodypartsData.get({ plain: true });
-    res.render('bodyparts', { bodypart, loggedIn: req.session.loggedIn });
+    res.render('bodypart', { bodypart, loggedIn: req.session.loggedIn });
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
   }
 });
+
+router.get('/login', (req, res) => {
+    if (req.session.loggedIn) {
+      res.redirect('/');
+      return;
+    }
+  
+    res.render('login');
+  });
 
 module.exports = router;
 

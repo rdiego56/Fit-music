@@ -19,16 +19,20 @@
 
     {
         "name": "Upper Chest / Shoulders",
-        "description":  "Excercises to bias the Upper chest/Shoulders" 
+        "description":  "Excercises to bias the Upper chest/Shoulders",
+        "image":"maxresdefault (1).jpg"
+
     },
 
     {
         "name": "Hamstrings / Glutes",
-        "description":   "Excercises to bias the Hamstrings / Glutes"
+        "description":   "Excercises to bias the Hamstrings / Glutes",
+        "images":"maxresdefault (2).jpg"
     },
 
     {
         "name": "Low Back / Glutes",
-        "description":   "Excercises to bias the Lower back / Glutes"
+        "description":   "Excercises to bias the Lower back / Glutes",
+        "image":"lower-back-muscles.jpg"
     }
 ]
