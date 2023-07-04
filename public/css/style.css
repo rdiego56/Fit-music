@@ -9,6 +9,8 @@
   --border-radius: 0.3rem;
 }
 
+
+
 body {
   font-family: Arial;
   margin: 0;
@@ -68,12 +70,25 @@ nav a:hover {
 
 .gallery {
   flex: 4;
+  background-image: url("http://www.gymquotes.co/wp-content/uploads/2020/01/sometimes-a-workout-is-all-the-therapy-you-need-gym-workout-quotes.jpg");
   background-color: #fff;
   padding: 50px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+}
+
+.emoji-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.emoji-container span {
+  font-size: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .btn-no-style {
