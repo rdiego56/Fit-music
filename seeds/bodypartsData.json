@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Lower Chest / Triceps",
+        "description":   "Excercises to bias the Lower chest, and the triceps ",
+        "image": "maxresdefault.jpg"
+    },
+
+    {
+        "name": "Back / Biceps",
+        "description":   "Excercises to bias the Upper/mid back, and the biceps",
+        "image":"back-and-biceps-workout-yt.png"
+    },
+
+    {
+        "name": "Quads / Calves",
+        "description":   "Excercises to bias the Quads/Calves",
+        "image": "30-Minute-Leg-Workout.jpg"
+    },
+
+    {
+        "name": "Upper Chest / Shoulders",
+        "description":  "Excercises to bias the Upper chest/Shoulders",
+        "image":"maxresdefault (1).jpg"
+
+    },
+
+    {
+        "name": "Hamstrings / Glutes",
+        "description":   "Excercises to bias the Hamstrings / Glutes",
+        "image":"maxresdefault (2).jpg"
+    },
+
+    {
+        "name": "Low Back / Glutes",
+        "description":   "Excercises to bias the Lower back / Glutes",
+        "image":"lower-back-muscles.jpg"
+    }
+]

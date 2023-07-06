@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Set Your Vibe</title>
+  <link rel="stylesheet" type="text/css" href="/css/jass.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1><span>💪</span>Welcome to Fit-music<span>💪</span></h1>
+    <h2>Enjoy your workouts and music<span>🤪</span></h2>
+  </header>
+  <nav>
+    <a href="/">Home</a>
+    {{#if loggedIn}}
+    <button id="logout" class="btn-no-style">Logout</button>
+    {{else}}
+    <a href="/login">Login</a>
+    {{/if}}
+  </nav>
+  <main>
+    <aside>
+      <h3>How are you feeling today? Here is your playlists!</h3>
+      
+      
+      <div class="emoji-container">
+    <a href="https://example.com">
+      <span>😊</span>
+    </a>
+    <a href="https://example.com">
+      <span>😢</span>
+    </a>
+    <a href="https://example.com">
+      <span>🙂</span>
+    </a>
+  </div>
+    </aside>
+    <div class="gallery">
+      {{{body}}}
+    </div>
+  </main>
+  {{#if loggedIn}}
+  <script src="/js/logout.js"></script>
+  {{/if}}
+</body>
+
+</html>
