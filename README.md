@@ -1,4 +1,5 @@
 # Fit-music
+![project 2 fit music](https://github.com/rdiego56/Fit-music/assets/128023854/6217433c-1d49-4d48-9009-f0e03110b6ef)
 
 We were assigned to make an application of our own to meet certain criteria assigned to us, along with using new technology not used in class.
 
