@@ -11,7 +11,7 @@
 
 <body>
   <header>
-    <h1><span>💪</span>Welcome to Fit-music<span>💪</span></h1>
+    <h1><span>💪</span>Fit-music<span>💪</span></h1>
     <h2>Enjoy your workouts and music<span>🤪</span></h2>
   </header>
   <nav>
@@ -24,26 +24,48 @@
   </nav>
   <main>
     <aside>
-      <h3>How are you feeling today? Here is your playlists!</h3>
+      <h3>How are you feeling today?</h3>
       
       
-      <div class="emoji-container">
-    <a href="https://example.com">
-      <span>😊</span>
-    </a>
-    <a href="https://example.com">
-      <span>😢</span>
-    </a>
-    <a href="https://example.com">
-      <span>🙂</span>
-    </a>
+    <div class="emoji-container">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/43Nzy63D5BxdQsorBLdEFa?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <span class="happy">😊</span>
+    
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4wlCzyeMrfxVoHrL8I9p8u?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <span class ="sad">😢</span>
+      
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/55pmb4dVUXcHsTX2uHM7Zq?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <span class="angry">😠</span>
+    
   </div>
     </aside>
     <div class="gallery">
       {{{body}}}
     </div>
   </main>
-  {{#if loggedIn}}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <script> 
+    anime({
+  targets: '.happy',
+  duration: 3000,
+  loop: true,
+direction: 'alternate',
+  rotate: '1turn'
+});
+anime({
+  targets: '.sad',
+  duration: 3000,
+  loop: true,
+direction: 'alternate',
+  rotate: '1turn'});
+anime({
+  targets: '.angry',
+  duration: 3000,
+  loop: true,
+direction: 'alternate',
+  rotate: '1turn'});
+  </script>
+ {{#if loggedIn}}
   <script src="/js/logout.js"></script>
   {{/if}}
 </body>
