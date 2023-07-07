@@ -70,7 +70,9 @@ nav a:hover {
 
 .gallery {
   flex: 4;
-  background-image: url("http://www.gymquotes.co/wp-content/uploads/2020/01/sometimes-a-workout-is-all-the-therapy-you-need-gym-workout-quotes.jpg");
+  background-image: url("https://img.freepik.com/premium-photo/indoor-space-gym-ai-technology-generated-image_1112-12540.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
   background-color: #fff;
   padding: 50px;
   display: flex;
@@ -128,6 +130,7 @@ img {
   border-radius: 10px;
   background-color: var(--light);
   color: var(--dark);
+  box-shadow: 20px 20px 60px #BEBEBE, -20px -20px 60px #FFFFFF;
 }
 
 .login-card {
