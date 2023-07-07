@@ -1,5 +1,6 @@
 # Fit-music
 ![project 2 fit music](https://github.com/rdiego56/Fit-music/assets/128023854/6217433c-1d49-4d48-9009-f0e03110b6ef)
+![project 2 fit music 2](https://github.com/rdiego56/Fit-music/assets/128023854/d9c4ed78-d466-435e-b7b5-d2003d9970f5)
 
 We were assigned to make an application of our own to meet certain criteria assigned to us, along with using new technology not used in class.
 
@@ -13,6 +14,7 @@ We were assigned to make an application of our own to meet certain criteria assi
 * One the individual is doen with the wokrout he can then turn off the music and logout and continue on with his day where he can continue to use the app in the coming days.
 
 # Live Website
+[LiveWebPage](https://powerful-peak-43069-7f3447280465.herokuapp.com/login)
 
 # GitHub Repository for Project 2
 [GitHubRepo](https://github.com/rdiego56/Fit-music)
